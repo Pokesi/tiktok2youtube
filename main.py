@@ -25,7 +25,7 @@ RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, httplib.NotConnected,
 
 RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
 
-CLIENT_SECRETS_FILE = 'client_secret_927906389656-pmriqnirjeoolc3295mjum271drlcn8f.apps.googleusercontent.com.json'
+CLIENT_SECRETS_FILE = 'client_secret_YOUR_FILE.json'
 
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 API_SERVICE_NAME = 'youtube'
